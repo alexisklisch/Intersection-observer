@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,900;1,700&display=swap');
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: #D39126;
+  border: transparent;
+  border-radius: 6px;
+  color: #020419;
+  cursor: pointer;
+  font-size: 42px;
+  padding: 6px 18px;
+}
+
+.section {
+  background-color: #020419;
+  color: whitesmoke;
+  display: grid;
+  place-content: center;
+  font-size: 62px;
+  font-family: 'Inter Tight';
+  font-weight: bolder;
+  min-height: 100vh;
+}
+
+.animacion {
+  background-color: #D39126;
+  color: #020419;
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
